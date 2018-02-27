@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="" label="Mcicom Table" language="en" table="x_lmio_mcicom_table">
+    <sys_documentation element="" label="MCICOM Base Loading List" language="en" table="x_lmio_mcicom_table">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>Mcicom Table</label>
+            <label>MCICOM Base Loading List</label>
             <language>en</language>
             <name>x_lmio_mcicom_table</name>
-            <plural>Mcicom Tables</plural>
+            <plural>MCICOM Base Loading Lists</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>bchildress</sys_created_by>
             <sys_created_on>2018-02-27 13:40:22</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>279764613728130057c29da543990ee0</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Mcicom Table</sys_name>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>MCICOM Base Loading List</sys_name>
             <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
             <sys_update_name>sys_documentation_x_lmio_mcicom_table__en</sys_update_name>
             <sys_updated_by>bchildress</sys_updated_by>
-            <sys_updated_on>2018-02-27 13:40:23</sys_updated_on>
+            <sys_updated_on>2018-02-27 13:54:05</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
