@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="MCICOM Base Loading List" max_length="40" name="x_lmio_mcicom_table" type="collection"/>
+    <element extends="task" label="MCICOM Base Loading List" max_length="40" name="x_lmio_mcicom_table" type="collection">
+        <element choice="1" display="true" label="Installation" mandatory="true" max_length="32" name="installation" reference="x_lmio_mcicom_installation" type="reference">
+            <choice/>
+        </element>
+    </element>
 </database>

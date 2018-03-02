@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="regionname" label="RegionName" language="en" table="x_lmio_mcicom_regions">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>regionname</element>
+            <help/>
+            <hint/>
+            <label>RegionName</label>
+            <language>en</language>
+            <name>x_lmio_mcicom_regions</name>
+            <plural>RegionNames</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>bchildress</sys_created_by>
+            <sys_created_on>2018-02-27 19:42:27</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>237ab1a537ac13001bb2d5c543990ed7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>RegionName</sys_name>
+            <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
+            <sys_update_name>sys_documentation_x_lmio_mcicom_regions_regionname_en</sys_update_name>
+            <sys_updated_by>bchildress</sys_updated_by>
+            <sys_updated_on>2018-02-27 19:42:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

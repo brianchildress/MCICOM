@@ -10,36 +10,36 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>NEW</link_type>
         <map_page/>
-        <mobile_title>MCICOM Table</mobile_title>
+        <mobile_title>New BLL</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_lmio_mcicom_table</name>
-        <order>202</order>
+        <order>201</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_lmio_mcicom.user</roles>
+        <roles/>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>bchildress</sys_created_by>
-        <sys_created_on>2018-02-27 13:40:23</sys_created_on>
+        <sys_created_on>2018-03-02 16:29:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>f797a4613728130057c29da543990ecd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>All BLL's</sys_name>
+        <sys_id>6afaa06237a417001bb2d5c543990e15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New BLL</sys_name>
         <sys_overrides/>
         <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
-        <sys_update_name>sys_app_module_f797a4613728130057c29da543990ecd</sys_update_name>
+        <sys_update_name>sys_app_module_6afaa06237a417001bb2d5c543990e15</sys_update_name>
         <sys_updated_by>bchildress</sys_updated_by>
-        <sys_updated_on>2018-03-02 16:28:40</sys_updated_on>
+        <sys_updated_on>2018-03-02 16:29:52</sys_updated_on>
         <timeline_page/>
-        <title>All BLL's</title>
+        <title>New BLL</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

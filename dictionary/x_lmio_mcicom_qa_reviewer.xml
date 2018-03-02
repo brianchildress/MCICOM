@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="QA Reviewer" max_length="40" name="x_lmio_mcicom_qa_reviewer" type="collection">
+        <element display="true" label="Region" max_length="32" name="region" reference="x_lmio_mcicom_regions" type="reference"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" reference_qual="roles=x_lmio_mcicom.user^EQ" reference_qual_condition="roles=x_lmio_mcicom.user^EQ" type="reference"/>
+        <index name="index">
+            <element name="region"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

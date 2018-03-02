@@ -8,14 +8,14 @@
         <hint/>
         <name>MCICOM</name>
         <order/>
-        <roles>x_lmio_mcicom.user</roles>
+        <roles>x_lmio_mcicom.user,x_lmio_mcicom.admin</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>bchildress</sys_created_by>
         <sys_created_on>2018-02-27 13:40:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>9f97e0613728130057c29da543990e06</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>MCICOM</sys_name>
         <sys_overrides/>
         <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
@@ -24,7 +24,7 @@
         <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
         <sys_update_name>sys_app_application_9f97e0613728130057c29da543990e06</sys_update_name>
         <sys_updated_by>bchildress</sys_updated_by>
-        <sys_updated_on>2018-02-27 13:40:21</sys_updated_on>
+        <sys_updated_on>2018-03-02 13:48:07</sys_updated_on>
         <title>MCICOM</title>
         <view_name/>
     </sys_app_application>
