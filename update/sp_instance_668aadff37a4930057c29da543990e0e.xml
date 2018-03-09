@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">915a69ff37a4930057c29da543990e49</sp_column>
+        <sp_widget display_value="SC Catalog Item Deprecated">0fd6a6f247230200ba13a5554ee490b3</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>bchildress</sys_created_by>
+        <sys_created_on>2018-03-06 18:19:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>668aadff37a4930057c29da543990e0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SC Catalog Item Deprecated</sys_name>
+        <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
+        <sys_update_name>sp_instance_668aadff37a4930057c29da543990e0e</sys_update_name>
+        <sys_updated_by>bchildress</sys_updated_by>
+        <sys_updated_on>2018-03-06 18:19:22</sys_updated_on>
+        <title>SC Catalog Item Deprecated</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+</record_update>

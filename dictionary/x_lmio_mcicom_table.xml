@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="MCICOM Base Loading List" max_length="40" name="x_lmio_mcicom_table" type="collection">
-        <element choice="1" display="true" label="Installation" mandatory="true" max_length="32" name="installation" reference="x_lmio_mcicom_installation" type="reference">
+    <element audit="true" extends="task" label="MCICOM Base Loading List" max_length="40" name="x_lmio_mcicom_table" sizeclass="6" type="collection">
+        <element choice="1" label="Installation" mandatory="true" max_length="32" name="installation" reference="x_lmio_mcicom_installation" type="reference">
             <choice/>
         </element>
+        <element label="Program Lead Submits to Client" max_length="40" name="program_lead_submits_to_client" type="boolean"/>
+        <element label="PWOs POCs Given Draft" max_length="40" name="pwos_pocs_given_draft" type="boolean"/>
+        <element label="Ready For Review" max_length="40" name="ready_for_review" type="boolean"/>
+        <element label="Regional Approved" max_length="40" name="regional_approved" read_only="true" type="boolean"/>
+        <element choice="1" label="Reviewer" max_length="32" name="reviewer" reference="x_lmio_mcicom_qa_reviewer" type="reference" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element label="Sent to Program Lead" max_length="40" name="sent_to_program_lead" type="boolean"/>
+        <element label="Sent to Regional Lead" max_length="40" name="sent_to_regional_lead" type="boolean"/>
+        <element default="http://" display="true" label="SharePoint Link" max_length="5000" name="sharepointlink" type="string"/>
     </element>
 </database>

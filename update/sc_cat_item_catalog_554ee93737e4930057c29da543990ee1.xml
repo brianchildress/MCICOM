@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Request BLL">914ee93737e4930057c29da543990edc</sc_cat_item>
+        <sc_catalog display_value="MCICOM">df5d65f337e4930057c29da543990e9a</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>bchildress</sys_created_by>
+        <sys_created_on>2018-03-06 18:35:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>554ee93737e4930057c29da543990ee1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MCICOM.Request BLL</sys_name>
+        <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_554ee93737e4930057c29da543990ee1</sys_update_name>
+        <sys_updated_by>bchildress</sys_updated_by>
+        <sys_updated_on>2018-03-06 18:35:24</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

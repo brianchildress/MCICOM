@@ -55,7 +55,7 @@
         <sys_created_by>bchildress</sys_created_by>
         <sys_created_on>2018-02-27 19:42:26</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>1ab8bd6137ac13001bb2d5c543990e4c</sys_id>
+        <sys_id>6effa03337a0930057c29da543990e1c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>RegionName</sys_name>
         <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
@@ -63,8 +63,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
         <sys_update_name>sys_dictionary_x_lmio_mcicom_regions_regionname</sys_update_name>
-        <sys_updated_by>bchildress</sys_updated_by>
-        <sys_updated_on>2018-02-27 19:42:26</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-03-06 14:03:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

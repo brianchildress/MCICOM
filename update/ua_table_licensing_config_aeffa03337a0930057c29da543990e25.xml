@@ -5,24 +5,24 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_lmio_mcicom_qa_reviewer</name>
+        <name>x_lmio_mcicom_regions</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>bchildress</sys_created_by>
-        <sys_created_on>2018-03-02 17:53:14</sys_created_on>
+        <sys_created_on>2018-02-27 19:42:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>f84ef06637a0570057c29da543990e5e</sys_id>
+        <sys_id>aeffa03337a0930057c29da543990e25</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_lmio_mcicom_qa_reviewer</sys_name>
+        <sys_name>x_lmio_mcicom_regions</sys_name>
         <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
-        <sys_update_name>ua_table_licensing_config_f84ef06637a0570057c29da543990e5e</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_aeffa03337a0930057c29da543990e25</sys_update_name>
         <sys_updated_by>bchildress</sys_updated_by>
-        <sys_updated_on>2018-03-02 17:53:14</sys_updated_on>
+        <sys_updated_on>2018-02-27 19:42:27</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

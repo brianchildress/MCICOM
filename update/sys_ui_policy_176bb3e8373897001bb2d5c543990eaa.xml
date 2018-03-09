@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_lmio_mcicom_table">installationISNOTEMPTY^EQ<item endquery="false" field="installation" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	var sections = g_form.getSections();
+	sections[1].style.display = 'none';
+	g_form.setSectionDisplay('region', false);
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	var sections = g_form.getSections();
+	sections[1].style.display = 'block';
+	g_form.setSectionDisplay('region', true);
+}]]></script_true>
+        <set_values/>
+        <short_description>Make Region Approver visible when Installation filled</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>bchildress</sys_created_by>
+        <sys_created_on>2018-03-09 12:54:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>176bb3e8373897001bb2d5c543990eaa</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Make Region Approver visible when Installation filled</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
+        <sys_update_name>sys_ui_policy_176bb3e8373897001bb2d5c543990eaa</sys_update_name>
+        <sys_updated_by>bchildress</sys_updated_by>
+        <sys_updated_on>2018-03-09 14:19:37</sys_updated_on>
+        <table>x_lmio_mcicom_table</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

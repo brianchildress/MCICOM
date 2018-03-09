@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>male</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column/>
+        <sp_page display_value="mcicom_bll_request_bll">df143c3737a0930057c29da543990e33</sp_page>
+        <sp_widget/>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>bchildress</sys_created_by>
+        <sys_created_on>2018-03-06 19:10:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a466717f3768930057c29da543990e7b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
+        <sys_update_name>sp_instance_link_a466717f3768930057c29da543990e7b</sys_update_name>
+        <sys_updated_by>bchildress</sys_updated_by>
+        <sys_updated_on>2018-03-06 19:38:31</sys_updated_on>
+        <title/>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{]]></widget_parameters>
+    </sp_instance_link>
+</record_update>
