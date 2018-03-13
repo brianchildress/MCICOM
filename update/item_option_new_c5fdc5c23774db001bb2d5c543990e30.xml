@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
         <cat_item display_value="Request BLL">914ee93737e4930057c29da543990edc</cat_item>
         <category/>
@@ -10,16 +10,16 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>http://</default_value>
+        <default_value>Pending Review</default_value>
         <delete_roles/>
         <delivery_plan/>
-        <description><![CDATA[<p>The SharePoint URL will be used in the e-mail sent to users to allow them to edit or update the actual BLL file.</p>]]></description>
+        <description/>
         <display_title>false</display_title>
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <example_text/>
-        <field>sharepointlink</field>
+        <field>bll_status</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -37,17 +37,17 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>sharepointlink</name>
-        <order>200</order>
+        <name>bll_status</name>
+        <order>1000</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>What is the URL for this BLL in SharePoint?</question_text>
+        <question_text>Current Status</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_lmio_mcicom_table</record_producer_table>
-        <reference/>
+        <reference>x_lmio_mcicom_bll_status</reference>
         <reference_qual/>
         <reference_qual_condition/>
         <scale_max>5</scale_max>
@@ -58,21 +58,21 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>bchildress</sys_created_by>
-        <sys_created_on>2018-03-09 12:39:09</sys_created_on>
+        <sys_created_on>2018-03-13 16:04:13</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>d9293368373897001bb2d5c543990e6c</sys_id>
+        <sys_id>c5fdc5c23774db001bb2d5c543990e30</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name>What is the URL for this BLL in SharePoint?</sys_name>
+        <sys_name>Current Status</sys_name>
         <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
-        <sys_update_name>item_option_new_d9293368373897001bb2d5c543990e6c</sys_update_name>
+        <sys_update_name>item_option_new_c5fdc5c23774db001bb2d5c543990e30</sys_update_name>
         <sys_updated_by>bchildress</sys_updated_by>
-        <sys_updated_on>2018-03-13 14:46:58</sys_updated_on>
+        <sys_updated_on>2018-03-13 16:13:49</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>27</type>
+        <type>8</type>
         <u_visible_request_summary_emails>false</u_visible_request_summary_emails>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
@@ -87,22 +87,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=d9293368373897001bb2d5c543990e6c"/>
-    <fx_price action="delete_multiple" query="id=d9293368373897001bb2d5c543990e6c"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c5fdc5c23774db001bb2d5c543990e30"/>
+    <fx_price action="delete_multiple" query="id=c5fdc5c23774db001bb2d5c543990e30"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>d9293368373897001bb2d5c543990e6c</id>
+        <id>c5fdc5c23774db001bb2d5c543990e30</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>bchildress</sys_created_by>
-        <sys_created_on>2018-03-09 12:39:10</sys_created_on>
-        <sys_id>e4893768373897001bb2d5c543990ed7</sys_id>
+        <sys_created_on>2018-03-13 16:04:13</sys_created_on>
+        <sys_id>1bce8d823774db001bb2d5c543990e7f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>bchildress</sys_updated_by>
-        <sys_updated_on>2018-03-09 12:39:10</sys_updated_on>
+        <sys_updated_on>2018-03-13 16:04:13</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -110,16 +110,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>d9293368373897001bb2d5c543990e6c</id>
+        <id>c5fdc5c23774db001bb2d5c543990e30</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>bchildress</sys_created_by>
-        <sys_created_on>2018-03-09 12:39:09</sys_created_on>
-        <sys_id>24893768373897001bb2d5c543990ed6</sys_id>
+        <sys_created_on>2018-03-13 16:04:13</sys_created_on>
+        <sys_id>17ce8d823774db001bb2d5c543990e7e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>bchildress</sys_updated_by>
-        <sys_updated_on>2018-03-09 12:39:09</sys_updated_on>
+        <sys_updated_on>2018-03-13 16:04:13</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

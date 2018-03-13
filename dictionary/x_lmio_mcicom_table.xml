@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element audit="true" extends="task" label="MCICOM Base Loading List" max_length="40" name="x_lmio_mcicom_table" sizeclass="6" type="collection">
+        <element default="BLL0001001" display="true" label="BLL Status" max_length="100" name="bll_status" read_only="true" reference="x_lmio_mcicom_bll_status" type="reference"/>
         <element choice="1" label="Installation" mandatory="true" max_length="32" name="installation" reference="x_lmio_mcicom_installation" type="reference">
             <choice/>
         </element>
@@ -13,6 +14,6 @@
         </element>
         <element label="Sent to Program Lead" max_length="40" name="sent_to_program_lead" type="boolean"/>
         <element label="Sent to Regional Lead" max_length="40" name="sent_to_regional_lead" type="boolean"/>
-        <element default="http://" display="true" label="SharePoint Link" max_length="5000" name="sharepointlink" type="string"/>
+        <element default="http://" label="SharePoint Link" max_length="5000" name="sharepointlink" type="url"/>
     </element>
 </database>

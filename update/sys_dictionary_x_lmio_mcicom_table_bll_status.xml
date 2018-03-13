@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="sharepointlink" table="x_lmio_mcicom_table">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="bll_status" table="x_lmio_mcicom_table">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -15,33 +15,33 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>SharePoint Link</column_label>
+        <column_label>BLL Status</column_label>
         <comments/>
         <create_roles/>
-        <default_value>http://</default_value>
+        <default_value>BLL0001001</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>sharepointlink</element>
+        <element>bll_status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="URL">url</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>5000</max_length>
+        <max_length>100</max_length>
         <name>x_lmio_mcicom_table</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_lmio_mcicom_bll_status">x_lmio_mcicom_bll_status</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -53,18 +53,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>bchildress</sys_created_by>
-        <sys_created_on>2018-03-09 12:34:32</sys_created_on>
+        <sys_created_on>2018-03-13 15:00:00</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>ab38bbe4373897001bb2d5c543990e7d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>SharePoint Link</sys_name>
+        <sys_id>9e4bf8823734db001bb2d5c543990e3d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>BLL Status</sys_name>
         <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
-        <sys_update_name>sys_dictionary_x_lmio_mcicom_table_sharepointlink</sys_update_name>
+        <sys_update_name>sys_dictionary_x_lmio_mcicom_table_bll_status</sys_update_name>
         <sys_updated_by>bchildress</sys_updated_by>
-        <sys_updated_on>2018-03-13 15:05:50</sys_updated_on>
+        <sys_updated_on>2018-03-13 15:31:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

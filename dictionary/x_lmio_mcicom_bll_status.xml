@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="BLL Status" max_length="40" name="x_lmio_mcicom_bll_status" type="collection">
+        <element display="true" label="Status" max_length="100" name="status" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Status ID" max_length="40" name="status_id" read_only="true" type="string"/>
+    </element>
+</database>
