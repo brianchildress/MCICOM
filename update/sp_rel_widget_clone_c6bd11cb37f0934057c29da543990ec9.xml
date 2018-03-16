@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="Bll Dashboard">82bd11cb37f0934057c29da543990ec6</child>
+        <cloned>2018-03-16 19:43:20</cloned>
+        <last_validated>2018-03-16 19:43:20</last_validated>
+        <parent display_value="iframe_resizer">a9097ff167a032007f4eff5617415a40</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($scope) { 
+	var c = this; 
+	$scope.$on('view_changed', function(e,info) {
+		c.server.update().then(function(){
+		});
+	});
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;iframe-resizer&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function(scope,elem, attrs, ctrl) {
+
+	$(document).ready(function(){
+		resize_window();
+	});
+
+	$(window).resize(function(){
+		resize_window();
+	});
+
+	function resize_window(){
+		var panel_height = ($(document).height()- 135) + 'px';
+		$(elem).find('#dashboard').css('height',panel_height);
+	}
+
+}]]&gt;&lt;/link&gt;&lt;name&gt;iframe_resizer&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	data.is_group_admin = false;
+	data.is_admin = false ;
+
+	var gr1 = new GlideRecord('sys_user_has_role');
+	gr1.addQuery('user',gs.getUserID());
+	gr1.addEncodedQuery('role.name=sn_cmp.cloud_group_admin');
+	gr1.query();
+	if(gr1.next()){
+		data.is_group_admin = true;
+	}
+
+	var gr2 = new GlideRecord('sys_user_has_role');
+	gr2.addQuery('user',gs.getUserID());
+	gr2.addEncodedQuery('role.name=admin^ORrole.name=sn_cmp.cmp_root_admin');
+	gr2.query();
+	if(gr2.next()){
+		data.is_admin = true;
+	}
+
+	data.gv = gs.getUser().getPreference('cloud_user_portal_view') || 'mine';
+
+	if((!data.is_group_admin &amp;&amp; !data.is_admin) || ((data.is_admin || data.is_group_admin) &amp;&amp; data.gv == 'mine')){
+		data.src = "$pa_dashboard.do?sysparm_dashboard=81c0fbf693b732004a9032bfa67ffb64&amp;sysparm_tab=11c0fbf693b732004a9032bfa67ffb68&amp;sysparm_cancelable=true&amp;sysparm_editable=false&amp;sysparm_active_panel=false&amp;sysparm_group=Cloud%20User&amp;sysparm_ignore_default_filter=false"
+	}
+	else if((data.is_admin || data.is_group_admin) &amp;&amp; data.gv == 'group'){
+		data.src = "$pa_dashboard.do?sysparm_dashboard=81c0fbf693b732004a9032bfa67ffb64&amp;sysparm_tab=11c0fbf693b732004a9032bfa67ffb68&amp;sysparm_cancelable=true&amp;sysparm_editable=false&amp;sysparm_active_panel=false&amp;sysparm_group=Cloud%20Group&amp;sysparm_ignore_default_filter=false"
+	}
+	else if(data.is_admin &amp;&amp; data.gv == 'all'){
+		data.src = "$pa_dashboard.do?sysparm_dashboard=81c0fbf693b732004a9032bfa67ffb64&amp;sysparm_tab=11c0fbf693b732004a9032bfa67ffb68&amp;sysparm_cancelable=true&amp;sysparm_editable=false&amp;sysparm_active_panel=false&amp;sysparm_group=Cloud%20Management&amp;sysparm_ignore_default_filter=false"
+	}
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-01-27 07:12:02&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;a9097ff167a032007f4eff5617415a40&lt;/sys_id&gt;&lt;sys_mod_count&gt;60&lt;/sys_mod_count&gt;&lt;sys_name&gt;iframe_resizer&lt;/sys_name&gt;&lt;sys_package display_value="Cloud Management Platform" source="sn_cmp"&gt;80d50579eb203200979aa5115206fedd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Cloud Management Platform"&gt;80d50579eb203200979aa5115206fedd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_a9097ff167a032007f4eff5617415a40&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-07-26 11:33:58&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+  &lt;iframe id="dashboard" ng-src="{{data.src}}" scrolling="no" frameborder="0" height="750px" width="100%"&gt;&lt;/iframe&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>bchildress</sys_created_by>
+        <sys_created_on>2018-03-16 19:43:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c6bd11cb37f0934057c29da543990ec9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>82bd11cb37f0934057c29da543990ec6</sys_name>
+        <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_c6bd11cb37f0934057c29da543990ec9</sys_update_name>
+        <sys_updated_by>bchildress</sys_updated_by>
+        <sys_updated_on>2018-03-16 19:43:20</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

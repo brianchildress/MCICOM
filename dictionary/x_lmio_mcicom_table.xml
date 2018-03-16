@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="MCICOM Base Loading List" max_length="40" name="x_lmio_mcicom_table" sizeclass="6" type="collection">
-        <element default="BLL0001001" display="true" label="BLL Status" max_length="100" name="bll_status" read_only="true" reference="x_lmio_mcicom_bll_status" type="reference"/>
+    <element audit="true" extends="task" label="MCICOM Base Loading List" max_length="40" name="x_lmio_mcicom_table" sizeclass="13" type="collection">
+        <element display="true" label="BLL Status" max_length="100" name="bll_status" read_only="true" reference="x_lmio_mcicom_bll_status" type="reference"/>
         <element choice="1" label="Installation" mandatory="true" max_length="32" name="installation" reference="x_lmio_mcicom_installation" type="reference">
             <choice/>
         </element>
@@ -9,7 +9,7 @@
         <element label="PWOs POCs Given Draft" max_length="40" name="pwos_pocs_given_draft" type="boolean"/>
         <element label="Ready For Review" max_length="40" name="ready_for_review" type="boolean"/>
         <element label="Regional Approved" max_length="40" name="regional_approved" read_only="true" type="boolean"/>
-        <element choice="1" label="Reviewer" max_length="32" name="reviewer" reference="x_lmio_mcicom_qa_reviewer" type="reference" use_dependent_field="true">
+        <element choice="1" label="Reviewer" max_length="32" name="reviewer" reference="x_lmio_mcicom_qa_reviewer" reference_qual="javascript:&quot;region=&quot;+current.Installation.Region" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
             <choice/>
         </element>
         <element label="Sent to Program Lead" max_length="40" name="sent_to_program_lead" type="boolean"/>

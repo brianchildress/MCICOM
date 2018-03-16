@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope) { 
+	var c = this; 
+	$scope.$on('view_changed', function(e,info) {
+		c.server.update().then(function(){
+		});
+	});
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>copy of iframe_resizer</description>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function(scope,elem, attrs, ctrl) {
+
+	$(document).ready(function(){
+		resize_window();
+	});
+
+	$(window).resize(function(){
+		resize_window();
+	});
+
+	function resize_window(){
+		var panel_height = ($(document).height()- 135) + 'px';
+		$(elem).find('#dashboard').css('height',panel_height);
+	}
+
+}]]></link>
+        <name>Bll Dashboard</name>
+        <option_schema/>
+        <public>false</public>
+        <roles>x_lmio_mcicom.user</roles>
+        <script><![CDATA[(function() {
+	//data.src = "$pa_dashboard.do?sysparm_dashboard=81c0fbf693b732004a9032bfa67ffb64&sysparm_tab=11c0fbf693b732004a9032bfa67ffb68&sysparm_cancelable=true&sysparm_editable=false&sysparm_active_panel=false&sysparm_group=Cloud%20User&sysparm_ignore_default_filter=false"
+	data.src = "$pa_dashboard.do?sysparm_dashboard=7ae9994737f0934057c29da543990e78&sysparm_tab=901a1d4737f0934057c29da543990ec2&sysparm_cancelable=true&sysparm_editable=false&sysparm_active_panel=false&sysparm_ignore_default_filter=false"
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>bchildress</sys_created_by>
+        <sys_created_on>2018-03-16 19:43:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>82bd11cb37f0934057c29da543990ec6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Bll Dashboard</sys_name>
+        <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
+        <sys_update_name>sp_widget_82bd11cb37f0934057c29da543990ec6</sys_update_name>
+        <sys_updated_by>bchildress</sys_updated_by>
+        <sys_updated_on>2018-03-16 19:52:56</sys_updated_on>
+        <template><![CDATA[<div>
+  <iframe id="dashboard" ng-src="{{data.src}}" scrolling="no" frameborder="0" height="750px" width="100%"></iframe>
+</div>]]></template>
+    </sp_widget>
+</record_update>
