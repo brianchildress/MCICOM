@@ -6,7 +6,7 @@
         <color>default</color>
         <css/>
         <display_field>active</display_field>
-        <field_list>number,installation,sys_created_on,sys_updated_on</field_list>
+        <field_list>number,installation,reviewer,sys_created_on,sys_updated_on</field_list>
         <filter table="x_lmio_mcicom_table">active=true^regional_approved=false^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="false" field="regional_approved" goto="false" newquery="false" operator="=" or="false" value="false"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
@@ -15,8 +15,8 @@
         <id/>
         <maximum_entries>5</maximum_entries>
         <order>1</order>
-        <order_by/>
-        <order_direction>asc</order_direction>
+        <order_by>sys_updated_on</order_by>
+        <order_direction>desc</order_direction>
         <roles/>
         <short_description/>
         <size>md</size>
@@ -28,7 +28,7 @@
         <sys_created_on>2018-03-06 19:41:10</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b85dbd7f372c930057c29da543990eae</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>BLLs Ready For Review</sys_name>
         <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
         <sys_policy/>
@@ -36,7 +36,7 @@
         <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
         <sys_update_name>sp_instance_table_b85dbd7f372c930057c29da543990eae</sys_update_name>
         <sys_updated_by>bchildress</sys_updated_by>
-        <sys_updated_on>2018-03-09 16:53:51</sys_updated_on>
+        <sys_updated_on>2018-03-20 18:09:24</sys_updated_on>
         <table>x_lmio_mcicom_table</table>
         <title>BLLs Ready For Review</title>
         <url/>

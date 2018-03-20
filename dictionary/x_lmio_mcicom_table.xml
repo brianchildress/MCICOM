@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="MCICOM Base Loading List" max_length="40" name="x_lmio_mcicom_table" sizeclass="13" type="collection">
+    <element audit="true" extends="task" label="MCICOM Base Loading List" max_length="40" name="x_lmio_mcicom_table" sizeclass="17" type="collection">
         <element display="true" label="BLL Status" max_length="100" name="bll_status" read_only="true" reference="x_lmio_mcicom_bll_status" type="reference"/>
         <element choice="1" label="Installation" mandatory="true" max_length="32" name="installation" reference="x_lmio_mcicom_installation" type="reference">
             <choice/>
