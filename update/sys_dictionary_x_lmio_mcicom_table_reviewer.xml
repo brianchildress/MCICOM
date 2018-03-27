@@ -21,8 +21,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>Installation</dependent>
+        <dependent_on_field>Installation</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -45,8 +45,10 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>javascript:"region="+current.Installation.Region</reference_qual>
-        <reference_qual_condition/>
+        <reference_qual>regionSAMEASregion^EQ</reference_qual>
+        <reference_qual_condition table="x_lmio_mcicom_qa_reviewer">regionSAMEASregion^EQ<item endquery="false" field="region" goto="false" newquery="false" operator="SAMEAS" or="false" value="region"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
@@ -56,7 +58,7 @@
         <sys_created_on>2018-03-06 20:14:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>79a482333720d30057c29da543990ef5</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>49</sys_mod_count>
         <sys_name>Reviewer</sys_name>
         <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
         <sys_policy/>
@@ -64,13 +66,13 @@
         <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
         <sys_update_name>sys_dictionary_x_lmio_mcicom_table_reviewer</sys_update_name>
         <sys_updated_by>bchildress</sys_updated_by>
-        <sys_updated_on>2018-03-16 18:57:27</sys_updated_on>
+        <sys_updated_on>2018-03-27 13:58:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
         <widget/>
         <write_roles/>

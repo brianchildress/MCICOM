@@ -6,16 +6,18 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter/>
+        <filter table="x_lmio_mcicom_table">active=false^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>MCICOM Table</mobile_title>
+        <mobile_title>Completed BLL's</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_lmio_mcicom_table</name>
-        <order>205</order>
+        <order>202</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -24,22 +26,22 @@
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>bchildress</sys_created_by>
-        <sys_created_on>2018-02-27 13:40:23</sys_created_on>
+        <sys_created_on>2018-03-23 19:18:32</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>f797a4613728130057c29da543990ecd</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>All BLL's</sys_name>
+        <sys_id>4d7a1d593741d7401bb2d5c543990e39</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Completed BLL's</sys_name>
         <sys_overrides/>
         <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
-        <sys_update_name>sys_app_module_f797a4613728130057c29da543990ecd</sys_update_name>
+        <sys_update_name>sys_app_module_4d7a1d593741d7401bb2d5c543990e39</sys_update_name>
         <sys_updated_by>bchildress</sys_updated_by>
-        <sys_updated_on>2018-03-23 19:19:25</sys_updated_on>
+        <sys_updated_on>2018-03-23 19:19:36</sys_updated_on>
         <timeline_page/>
-        <title>All BLL's</title>
+        <title>Completed BLL's</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

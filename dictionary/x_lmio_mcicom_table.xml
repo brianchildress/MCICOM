@@ -9,7 +9,7 @@
         <element label="PWOs POCs Given Draft" max_length="40" name="pwos_pocs_given_draft" type="boolean"/>
         <element label="Ready For Review" max_length="40" name="ready_for_review" type="boolean"/>
         <element label="Regional Approved" max_length="40" name="regional_approved" read_only="true" type="boolean"/>
-        <element choice="1" label="Reviewer" max_length="32" name="reviewer" reference="x_lmio_mcicom_qa_reviewer" reference_qual="javascript:&quot;region=&quot;+current.Installation.Region" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
+        <element choice="1" dependent="Installation" dependent_on_field="Installation" label="Reviewer" max_length="32" name="reviewer" reference="x_lmio_mcicom_qa_reviewer" reference_qual="regionSAMEASregion^EQ" reference_qual_condition="regionSAMEASregion^EQ" type="reference" use_dependent_field="true">
             <choice/>
         </element>
         <element label="Sent to Program Lead" max_length="40" name="sent_to_program_lead" type="boolean"/>

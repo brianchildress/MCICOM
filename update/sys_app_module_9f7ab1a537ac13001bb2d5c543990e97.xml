@@ -15,7 +15,7 @@
         <mobile_title>Regions</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_lmio_mcicom_regions</name>
-        <order>101</order>
+        <order>121</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -28,7 +28,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>9f7ab1a537ac13001bb2d5c543990e97</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Regions</sys_name>
         <sys_overrides/>
         <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
         <sys_update_name>sys_app_module_9f7ab1a537ac13001bb2d5c543990e97</sys_update_name>
         <sys_updated_by>bchildress</sys_updated_by>
-        <sys_updated_on>2018-03-02 14:24:21</sys_updated_on>
+        <sys_updated_on>2018-03-23 18:57:34</sys_updated_on>
         <timeline_page/>
         <title>Regions</title>
         <uncancelable>false</uncancelable>

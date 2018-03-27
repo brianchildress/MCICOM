@@ -15,7 +15,7 @@
         <mobile_title>BLL Status</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_lmio_mcicom_bll_status</name>
-        <order>104</order>
+        <order>123</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -28,7 +28,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>8e7e8dc23774db001bb2d5c543990e85</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>BLL Status</sys_name>
         <sys_overrides/>
         <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
         <sys_update_name>sys_app_module_8e7e8dc23774db001bb2d5c543990e85</sys_update_name>
         <sys_updated_by>bchildress</sys_updated_by>
-        <sys_updated_on>2018-03-13 16:05:32</sys_updated_on>
+        <sys_updated_on>2018-03-23 19:04:22</sys_updated_on>
         <timeline_page/>
         <title>BLL Status</title>
         <uncancelable>false</uncancelable>

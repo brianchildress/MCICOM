@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_lmio_mcicom_qa_reviewer" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="QA Reviewer - Default view" name="x_lmio_mcicom_qa_reviewer" related_list="NULL" sys_domain="global" view="Default view">c054b42237c5db401bb2d5c543990ed2</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:307e60ea3785db401bb2d5c543990eb0</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>bchildress</sys_created_by>
+            <sys_created_on>2018-03-27 13:41:09</sys_created_on>
+            <sys_id>4054b42237c5db401bb2d5c543990ed3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bchildress</sys_updated_by>
+            <sys_updated_on>2018-03-27 13:41:09</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>QA Reviewer - Default view</calculated_name>
+            <filter/>
+            <name>x_lmio_mcicom_qa_reviewer</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>bchildress</sys_created_by>
+            <sys_created_on>2018-03-27 13:41:09</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>c054b42237c5db401bb2d5c543990ed2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>QA Reviewer - Default view</sys_name>
+            <sys_package display_value="MCICOM" source="x_lmio_mcicom">0b97ec6937e4130057c29da543990efc</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MCICOM">0b97ec6937e4130057c29da543990efc</sys_scope>
+            <sys_update_name>sys_ui_related_x_lmio_mcicom_qa_reviewer_null</sys_update_name>
+            <sys_updated_by>bchildress</sys_updated_by>
+            <sys_updated_on>2018-03-27 13:41:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
